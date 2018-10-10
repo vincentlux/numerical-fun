@@ -1,3 +1,4 @@
+% group project credit to Vincent Lu and Zeyao Liu
 clc; clear all;
 syms t i j 
 format long e;
@@ -99,3 +100,4 @@ function [A] = reflection(center, point)
     x2 = -2 * l(1) * l(2);
     A = 9 * [x1 x2; x2 (-x1)];
 end
+
